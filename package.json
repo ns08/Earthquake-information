@@ -1,0 +1,28 @@
+{
+  "name": "earthquake-fast-notifier",
+  "version": "1.0.0",
+  "description": "郵便番号登録対応・初報＆詳細地震情報LINE通知システム",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "earthquake",
+    "line",
+    "p2pquake",
+    "firebase",
+    "notifier"
+  ],
+  "author": "Gemini User",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "firebase": "^10.10.0",
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
